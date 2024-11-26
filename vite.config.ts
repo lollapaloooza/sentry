@@ -6,10 +6,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react(), sentryVitePlugin({
     org: "xma-3t",
-    project: "javascript-react"
+    project: "javascript-react",
   })],
-
   build: {
-    sourcemap: true
+    sourcemap: true,
   }
 })
